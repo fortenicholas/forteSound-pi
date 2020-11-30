@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/sobre-plans.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <img class="logo" src="sla.png" alt="">
+            <h1>Forte<b class="sound">Sound</b></h1>
+            <ul>
+
+                <li ><a href="index.html">home</a></li>
+                <li class="current">Sobre</li>
+                <li><a href="cadastro.html">Matricule-se</a></li>
+                <li class="btn"><a href="login.html">Entrar</a></li> 
+
+            </ul>
+        </div>
+    </div>
+           
+        
+       
+
+    <div class="linha-voz" style="display: block;">
+        <div class="container">
+          <div class="sing-inst">
+              <h2 class="left">Plano Voz </h2>
+              <select id="canto" class="select">
+                  <option value="">selecione</option>
+                  <option value="iniciante">Iniciante</option>
+                  <option value="Avancado">Avançado</option>
+              </select>
+              <button onclick="cantarolando()">OK</button>
+              <img src="./img/o-microphone.png" alt="">
+             
+              <h2 class="right">O que você irá aprender:</h2>
+              <div id="padrao" style="display: block;">
+               <ul>
+                   <li> <h3>Selecione um Plano</h3></div></li>
+               </ul>
+              <div id="iniciante_info" style="display: none;">
+           
+                <ul>  <li> Fluxo respiratório</li>
+                    <li>Colocação vocal</li>
+                    <li>Postura corporal</li>
+                    <li>Conceitos musicais</li></ul>
+              
+              </div>
+
+              <div id="avancado_infos" style="display: none;">
+                <ul> <li> Melisma</li>
+                    <li>Respiração</li>
+                    <li>Controlando Diafragma</li></ul>
+               
+              </div>
+              
+            
+            </div>   
+        </div>
+    </div>
+<div class="boton">
+    <button  onclick="enviar()">Conhecer outro Plano</button>
+
+</div>
+
+   
+</body>
+</html>
+
+<script>
+
+function cantarolando(){
+    padrao.style.display = 'none';
+
+    if(canto.value == 'Avancado'){
+avancado_infos.style.display = 'block';
+iniciante_info.style.display = 'none';
+}
+else if(canto.value == 'iniciante'){
+    avancado_infos.style.display = 'none';
+iniciante_info.style.display = 'block';
+
+    }
+
+    else{
+    padrao.style.display = 'block';
+
+    }
+  
+
+}
+
+function enviar(){
+    window.location.href ="sobre-ins.html"
+}
+
+</script>

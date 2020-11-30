@@ -1,0 +1,84 @@
+:root {
+    --color-one: #f4f4f4;
+    --color-two: #f0a500;
+    --color-three: #cf7500;
+    --color-four: darkgray;
+    --color-five:#1a1c20;
+
+  }
+
+  body{
+    background: var(--color-five);
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.cards-ins{
+    margin-top: 350px;
+    /* background: url(../img/austin-prock-Hz3Kjzgyv_Q-unsplash.jpg); */
+   background-size: cover;
+   height: 80vh;
+    background-attachment: fixed;
+    
+ 
+ }
+ 
+ .nivel{
+     color: var(--color-one);
+     text-align: center;
+ }
+ 
+ .card-ins img{
+         width: 170px;
+         align-items: center;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         padding-top: 10px;
+         padding-left: 60px;
+ }
+ .todos-cards-ins{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+     align-items: center;
+     align-content: center;
+    
+ }
+ .todos-cards-ins button{
+    margin-top: 50px;
+    
+     border-radius: 5px;
+     background-color: var(--color-five);
+     color: var(--color-one);
+     padding: 4px 12px 4px 12px;
+    
+ }
+ .card-ins{
+     float: left;
+     margin: 80px 0px 20px 30px;
+     text-align: center;
+     width: 300px;
+     height: 350px;
+     border: var(--color-one) solid;
+     border-radius: 8px;
+     color: var(--color-one);
+     background-color: var(--color-three);
+   
+ }
+ 
+ ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+ }
+
+ li{
+     list-style: none;
+ }

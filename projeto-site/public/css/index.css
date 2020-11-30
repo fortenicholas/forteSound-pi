@@ -1,0 +1,138 @@
+:root {
+    --color-one: #f4f4f4;
+    --color-two: #f0a500;
+    --color-three: #cf7500;
+    --color-four: darkgray;
+    --color-five:#1a1c20;
+
+  }
+  body{
+    background: var(--color-five);
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container .title{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.container .title span{
+    color: var(--color-three);
+    padding-left: 20px;
+
+}
+
+
+
+.back-imgs{
+    background-color: var(--color-two);
+    background: url(../img/tenor.gif) no-repeat scroll;
+    background-size:cover;
+    text-align: center;
+    margin:0;
+    padding: 0;
+    height: 700px;
+}
+
+.back-imgs h1{
+    color: var(--color-one);
+    font-weight: 600;
+    font-family:Montserrat,Arial,sans-serif;
+    align-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    margin-left: 40%;
+    margin-top: 2%;
+    width: 100px;
+}
+
+.orgainzando{
+    overflow: auto;
+
+}
+
+ .img-org img{
+     width: 100px;
+ }
+
+.organizando .img-org{
+    width: 50%;
+    float: left;
+    color: var(--color-one);
+    text-align: center;
+    margin-top: 75px;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-one);
+}
+
+.cards{
+   margin-top: 550px;
+   background: url(../img/austin-prock-Hz3Kjzgyv_Q-unsplash.jpg);
+  background-size: cover;
+  height: 80vh;
+   background-attachment: fixed;
+   
+
+}
+
+.perfil{
+    color: var(--color-one);
+    text-align: center;
+}
+
+.card img{
+        width: 170px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: 60px;
+}
+.todos-cards{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+   
+}
+.todos-cards button{
+   margin-top: 50px;
+   
+    border-radius: 5px;
+    background-color: var(--color-five);
+    color: var(--color-one);
+    padding: 4px 12px 4px 12px;
+   
+}
+.card{
+    float: left;
+    margin: 80px 0px 20px 30px;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    border: var(--color-one) solid;
+    border-radius: 8px;
+    color: var(--color-one);
+    background-color: var(--color-three);
+  
+}
+

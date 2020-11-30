@@ -1,0 +1,51 @@
+
+:root {
+    --color-one: #f4f4f4;
+    --color-two: #f0a500;
+    --color-three: #cf7500;
+    --color-four: darkgray;
+    --color-five:#1a1c20;
+
+  }
+
+.footer{
+    background: var(--color-five);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    
+  
+    
+}
+
+.footer .foot-infos{
+    color: var(--color-one);
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.footer .redes{
+    padding-right: 200px;
+}
+
+.foot-infos form{
+    float:right;
+    padding-left: 200px;
+   
+}
+
+.footer2{
+    background: var(--color-four);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}

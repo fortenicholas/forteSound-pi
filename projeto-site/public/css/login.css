@@ -1,0 +1,91 @@
+:root {
+    --color-one: #f4f4f4;
+    --color-two: #f0a500;
+    --color-three: #cf7500;
+    --color-four: darkgray;
+    --color-five:#1a1c20;
+    --color-six: red;
+
+  }
+
+body{
+    
+    margin: 0;
+    padding: 0;
+
+}
+
+.img-box{
+    background: url(../img/record-828983_1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 90vh;
+
+}
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: var(--color-one) solid 2px;
+    border-radius: 20px;
+    background: var(--color-five);
+}
+
+.box h1{
+
+    color: var(--color-one);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type="text"], .box input[type="password"]{
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    border: 2px solid var(--color-six);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: var(--color-one);
+    border-radius: 24px;
+    transition: 0.45s;
+}
+
+.box input[type="text"]:focus, .box input[type="password"]:focus{
+
+width: 280px;
+border-color: var(--color-two);
+
+
+
+}
+
+
+.box input[type="button"]{
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    border: 2px solid darkgrey;
+    padding: 14px 40px;
+    outline: none;
+    color: var(--color-one);
+    border-radius: 24px;
+    transition: 0.45s;
+    cursor: pointer;
+}
+
+.box input[type="button"]:hover{
+    background-color: darkgray;
+    color: var(--color-five);
+
+}

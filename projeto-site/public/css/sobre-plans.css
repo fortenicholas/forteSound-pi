@@ -1,0 +1,162 @@
+:root{
+    --color-one: #f4f4f4;
+    --color-two: #f0a500;
+    --color-three: #cf7500;
+    --color-four: darkgray;
+    --color-five:#1a1c20;
+}
+body{
+    background: var(--color-five);
+    margin: 0;
+    padding: 0;
+}
+
+    
+
+.backgrounds{
+    background:var(--color-five);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.inf{
+   display: flex;
+   align-items: center;
+  
+   flex-direction: row;
+    color: var(--color-one);
+}
+
+.photo img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.linha-voz{
+   content: '';
+   position: absolute;
+   left: 50%;
+    background-color: var(--color-four);
+    width: 2px;
+    height: 60%;
+    margin-top: 80px;
+}
+
+.linha-instrumento{
+    content: '';
+   position: absolute;
+   left: 50%;
+    background-color: var(--color-four);
+    width: 2px;
+    height: 50%;
+    margin-top: 80px;
+}
+
+.sing-inst h2{
+    color: var(--color-one);
+    margin: 0 0 0 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.sing-inst .right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    float: right;
+    margin-right: -390px;
+
+}
+
+.sing-inst .left{
+    float: left;
+   margin-left: -340px;
+}
+
+.linha-voz li{
+    width: 100px;
+    color: var(--color-one);
+    display: flex;
+    align-items:stretch;  
+    flex-direction: column;
+    padding: 100px 4px 0 200px;
+}
+
+.linha-instrumento li{
+        width: 100px;
+        color: var(--color-one);
+        display: flex;
+        align-items:stretch;  
+        flex-direction: column;
+        padding: 100px 4px 0 200px;
+    }
+
+
+.select{
+    width: 100px;
+    float: left;
+   margin-left: -340px;
+   margin-top: 70px;
+}
+
+button{
+    float: left;
+   margin-left: -230px;
+   margin-top: 70px;
+}
+
+img{
+    width: 200px;
+    float: left;
+    margin-left: -340px;
+    margin-top: 160px;
+}
+
+.opa img{
+    background-color: var(--color-two);
+    background: url(../img/caleb-george-pH88tHG-1yw-unsplash.jpg) no-repeat scroll;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin:0;
+    padding: 0;
+    height: 700px;
+    width: 100%;
+}
+
+.page{
+    margin-top: 700px;
+}
+
+.boton{
+    position: absolute;
+   left: 50%;
+   transform: translate(-40%, 700%);
+   padding: 0 0 0 275px;
+}
+
+.boton button{
+    border: none;
+    
+
+}
+
+.boton-ins{
+    position: absolute;
+   left: 50%;
+   transform: translate(-40%, 600%);
+   padding: 0 0 0 275px;
+
+
+}
+
+.boton-ins button{
+    border: none;
+}
+
