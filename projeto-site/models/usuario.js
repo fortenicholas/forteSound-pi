@@ -19,7 +19,7 @@ module.exports = (sequelize, DataTypes) => {
 			allowNull: false
 		},
 		
-		usuario: {
+		login: {
 			field: 'login',
 			type: DataTypes.STRING,
 			allowNull: false

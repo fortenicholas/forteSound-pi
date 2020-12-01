@@ -31,22 +31,16 @@
         <div class="container">
             <div class="cads">
                 <form id="form_cadastro" method="post" onsubmit="return cadastrar()">
-                    <h3>Nome e sobrenome</h3>
+                    <h3 for="nome">Nome e sobrenome</h3>
                     <input type="text" name="nome" class="input-padrao" autofocus="autofocus"   required minlength="4" >
-                    <h3>Usuário</h3>
+                    <h3 for="nome">Usuário</h3>
                     <input type="text" name="login" class="input-padrao" required minlength="4"> 
-                    <h3>Senha</h3>
+                    <h3 for="nome">Senha</h3>
                     <input type="password" name="senha" class="input-padrao" placeholder="**********"  required minlength="4">
-                    
-                    <!-- <h3>Plano</h3>
-                    <select name="" id="">
-                        <option value="">Selecionar</option>
-                        <option value="">Instrumento</option>
-                        <option value="">Voz</option>
-                    </select> -->
+                   
                     <br><br><br>
-                    <input type="submit" id="btn_entrar" value="Matricular">
-                    <!-- <input onclick="enviar()" type="button" value="Matricular"> -->
+                    <input type="submit" id="btn_entrar" value="cadastrar">
+
                 </form>
 
                 <div id="div_erro" style="background-color: #bf8899; color: maroon; display: none;">
