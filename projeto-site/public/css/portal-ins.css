@@ -28,6 +28,8 @@
  .nivel{
      color: var(--color-one);
      text-align: center;
+     margin-top: -200px;
+     
  }
  
  .card-ins img{

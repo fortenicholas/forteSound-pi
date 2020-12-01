@@ -48,6 +48,10 @@
                     <input type="submit" id="btn_entrar" value="Matricular">
                     <!-- <input onclick="enviar()" type="button" value="Matricular"> -->
                 </form>
+
+                <div id="div_erro" style="background-color: #bf8899; color: maroon; display: none;">
+                    Erro no cadastro
+                </div>
             </div>
            
         </div>
@@ -94,7 +98,7 @@ function cadastrar() {
                 response.text().then(function (resposta) {
                     div_erro.innerHTML = resposta;
                 });
-                finalizar_aguardar();
+                // finalizar_aguardar();
             }
         });
 
