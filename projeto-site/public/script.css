@@ -28,6 +28,14 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
     margin: 20px 0 0 750px;
 }
 
+.title2{
+    margin: 0 0 0 80px;
+}
+
+.img2{
+    margin: 0 0 0 200px;
+}
+
 .form-fretboard{
     width: 450px;
     height: 370px;
@@ -38,6 +46,10 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 
 .form-fretboard:hover{
     border: red solid 4px;
+}
+
+.tecs-vocal{
+    margin: 20px 0 0 590px;
 }
 
 .fretboard{
