@@ -1,5 +1,1 @@
-# projeto-modelo-individual-1ads-202
-Projeto Modelo para o Projeto Individual para as turmas de 1º Semestre - ADS - 2020/2 - Bandtec Digital School
-
-## Acesse o tutorial
-Indo em projeto-site/O-QUE-FAZER-AQUI.txt
+![ForteSound-e-mais-2-páginas-Pessoal-—-Microsoft_-Edge-2020-12-02-15-13-25](https://user-images.githubusercontent.com/70717922/100913850-115b8b80-34b1-11eb-8d31-966dda70d51a.gif)
