@@ -11,6 +11,7 @@
     --string-top-position:calc(var(--freatboard-height) / var(--number-of-strings)/2 - var(--half-string-height)          ) ;
     --double-fretmark-position-1: calc(var(--freatboard-height) * 0.25); 
     --double-fretmark-position-2: calc(var(--freatboard-height) * 0.75); 
+    --noteDotOpacity:0;
 
   }
 *{
@@ -20,7 +21,23 @@
 
 body{
 background:var(--color-four);
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title-fretboard{
+    margin: 20px 0 0 750px;
+}
+
+.form-fretboard{
+    width: 450px;
+    height: 370px;
+     border: var(--color-three) solid 2px;
+     margin:  30px 0 0 720px;
+     padding: 20px;
+}
+
+.form-fretboard:hover{
+    border: red solid 4px;
 }
 
 .fretboard{
@@ -28,6 +45,7 @@ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     flex-direction: column;
     background: #be975b;
     width: 100%;
+    min-width: 1500px;
     height: calc(var(--freatboard-height)*1px);
     margin-top: 50px;
 }
@@ -70,7 +88,7 @@ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 .note-fret:before{
-    content: 'a';
+    content: attr(data-note);
     width: 33px;
     height:33px;
     border-radius: 50%;
@@ -79,39 +97,34 @@ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     background: chocolate;
     z-index: 2;
     color: #eee;
-    opacity: 0.2;
+    opacity: var(--noteDotOpacity);
 }
 
-.single-fretmark:after{
+.single-fretmark:after, .double-fretmark:before, .double-fretmark:after{
     content: '';
     position: absolute;
     height: 20px;
     width: 20px;
     border-radius: 50%;
     background-color: #806233;
+
+}
+
+.single-fretmark:after{
+    
     top: calc(var(--freatboard-height)/ 2 * 1px);
     transform: translate(0,-50%);
 
 }
 
 .double-fretmark:before{
-    content: '';
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    background-color: #806233;
+   
     top: calc(var(--double-fretmark-position-1) * 1px);
     transform: translate(-140%,-50%);
 }
 
 .double-fretmark:after{
-    content: '';
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    background-color: #806233;
+    
     top: calc(var(--double-fretmark-position-2) * 1px);
     transform: translate(-140%,-50%);
 }
