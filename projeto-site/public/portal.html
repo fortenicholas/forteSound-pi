@@ -9,8 +9,21 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/portal-ins.css">
+    <script type="text/javascript" src="funcoes.js"></script>
+
 </head>
-<body>
+
+<script>
+
+    let usuario;
+
+    verificar_autenticacao();
+
+    
+</script>
+
+
+<body onload="verificar_autenticacao()">
     <div class="navbar">
         <div class="container">
             <img class="logo" src="sla.png" alt="">
@@ -18,8 +31,10 @@
             <ul>
                 
                 <li> <a href="index.html">Home</a></li>
-                <li>Bem vindo<span id="nome_perfil"></span></li>
+                <li>Bem vindo <span id="b_usuario"></span></li>
                 <li class="current" >curso</li>
+                <li><a href="" onclick="logoff()">LOGOUT</a></li>
+
 
             </ul>
         </div>
@@ -40,13 +55,13 @@
                   <img src="img/microphone.png" alt="">
 
             
-                  <button> <a href="script2.html">Conhecer</a></button>
+                  <button> <a href="script2.html">Aprender</a></button>
                 </div>
                 <div class="card-ins" >
                    <h2> Plano Instrumento </h2>
                    <img src="img/violao.png" alt="">
         
-                   <button> <a href="script.html">Conhecer</a></button>
+                   <button> <a href="script.html">Aprender</a></button>
                 </div>
     
             </div>

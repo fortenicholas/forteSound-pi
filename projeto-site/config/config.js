@@ -1,9 +1,9 @@
 module.exports = {
   production: {
-    username: 'forteSound',
+    username: 'nicholas-forte',
     password: 'Fdn256453',
-    database: 'BD-fortesound',
-    host: 'meuservidor-fortesound.database.windows.net',
+    database: 'fortesound-BD  ',
+    host: 'fortesound-bd.database.windows.net',
     dialect: 'mssql',
     xuse_env_variable: 'DATABASE_URL',
     dialectOptions: {
